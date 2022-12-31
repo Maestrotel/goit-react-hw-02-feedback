@@ -35,7 +35,7 @@ export class App extends Component {
 
     return (
       <>
-        <Section title="Statistics">
+        <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
             onLeaveFeedback={handleClick}
@@ -44,7 +44,7 @@ export class App extends Component {
         {total === 0 ? (
           <Notification message="There is no feedback" />
         ) : (
-          <Section title="Please leave feedback">
+          <Section title="Statistics">
             <Statistics
               good={good}
               neutral={neutral}
