@@ -1,0 +1,19 @@
+.buttonList {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.buttonItem {
+  color: white;
+  background: green;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+  padding: 10px 30px;
+}
+
+.buttonItem:not(:last-child) {
+  background: red;
+}

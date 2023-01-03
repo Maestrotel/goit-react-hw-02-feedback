@@ -17,4 +17,14 @@
   font-size: 30px;
   color: rgb(255, 217, 0);
   font-weight: 700;
+  margin-top: 30px;
+}
+
+.statisticsArea {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.statisticsArea:not(:last-child) {
+  margin-right: 30px;
 }

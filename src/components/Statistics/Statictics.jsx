@@ -9,13 +9,13 @@ export const Statistics = ({
 }) => {
   return (
     <ul className={css.statisticsList}>
-      <li>
+      <li className={css.statisticsArea}>
         Good:<span className={css.statisticsNumber}> {good}</span>
       </li>
-      <li>
+      <li className={css.statisticsArea}>
         Neutral:<span className={css.statisticsNumber}> {neutral}</span>
       </li>
-      <li>
+      <li className={css.statisticsArea}>
         Bad:<span className={css.statisticsNumber}> {bad}</span>
       </li>
       <li>
