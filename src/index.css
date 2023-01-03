@@ -9,6 +9,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin-top: 200px;
+  background-image: url(/assets/speech-bubble-cloud-quotes-paper-style-text-input-yellow-background_567288-1084.jpg);
+  background-size: cover;
 }
 
 code {
